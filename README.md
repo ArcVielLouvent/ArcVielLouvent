@@ -185,7 +185,7 @@ I would rather publish a smaller claim I can prove.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,ts,js,nextjs,react,nodejs,postgres,supabase,cloudflare,docker,kubernetes,terraform,githubactions,tailwind,astro,git,linux&perline=9" alt="Technology stack icons" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,ts,js,nextjs,react,nodejs,postgres,supabase,cloudflare,docker,githubactions,tailwind,astro,git,linux&perline=8" alt="Technology stack icons" />
 
 </div>
 
@@ -194,7 +194,7 @@ I would rather publish a smaller claim I can prove.
 | **ML and data** | PyTorch, transformers from scratch, BPE tokenizers, BM25 retrieval, TF-IDF, evaluation design |
 | **AI agents** | Model Context Protocol servers and clients, tool-use design, human-in-the-loop gates, Gemini |
 | **Backend** | Next.js, Node.js, Python, PostgreSQL, Supabase, row-level security, Xano |
-| **Infrastructure** | Cloudflare Workers, Docker, Kubernetes, Helm, Terraform, GitHub Actions |
+| **Infrastructure** | Cloudflare Workers, Docker, GitHub Actions |
 | **Quality** | Playwright, SQL tests for RLS, CI gates, axe accessibility checks |
 
 ---
