@@ -61,9 +61,12 @@ When something is unverified, unreachable or ambiguous, the system refuses inste
 ## Featured work
 
 > [!NOTE]
-> Some of this work lives in private repositories because it is product or research work. The write-ups below come from the code and docs, and I'm glad to walk through any of it in an interview.
+> Some of this work lives in private repositories because it is product or research work. The write-ups below come from the code and docs, and I'm glad to walk through any of it in an interview. Click a project to expand it.
 
-### StrataCore: autonomous platform engineering
+<details>
+<summary><b>StrataCore</b> · autonomous platform engineering · <a href="https://stratacore.dev">stratacore.dev</a></summary>
+
+<br />
 
 <table>
 <tr><td width="130"><b>What it is</b></td><td>A control plane that creates a preview environment for every pull request on servers the customer controls, and reports drift, spend, right-sizing and DORA metrics across services. Live at <a href="https://stratacore.dev">stratacore.dev</a>.</td></tr>
@@ -87,9 +90,12 @@ flowchart LR
 
 The agent and deploy artifacts are open source (MIT): [stratacore-agent-examples](https://github.com/ArcVielLouvent/stratacore-agent-examples).
 
----
+</details>
 
-### Modular AI: small models, built from zero
+<details>
+<summary><b>Modular AI</b> · small models, built from zero · independent research</summary>
+
+<br />
 
 <table>
 <tr><td width="130"><b>Question</b></td><td>Can a ~27M-parameter language model act as one small part of a larger system, with its knowledge supplied from outside instead of memorised? Independent research toward a modular AI product.</td></tr>
@@ -124,9 +130,12 @@ Answers follow a replaced memory 99.0% of the time at 1,000 countries, and the m
 - **I caught a flawed probe.** My first garbage-in test used strings the model had never seen, so its 0.0 proved nothing. I replaced it and said so in the notes.
 - **Honest limits.** The benchmark is synthetic and word-matching retrieval is easy on it. The next step is paraphrase, typos and multi-hop questions that BM25 cannot handle.
 
----
+</details>
 
-### KirakuStore: a library that keeps links, prompts and snippets healthy
+<details>
+<summary><b>KirakuStore</b> · a library that keeps links, prompts and snippets healthy · <a href="https://kirakustore.com">kirakustore.com</a></summary>
+
+<br />
 
 <table>
 <tr><td width="130"><b>What it is</b></td><td>A library for links, prompts and snippets that keeps them healthy and ranks the best one first. Built by KuroTech Lab; <a href="https://kirakustore.com">kirakustore.com</a>.</td></tr>
@@ -135,6 +144,8 @@ Answers follow a replaced memory 99.0% of the time at 1,000 countries, and the m
 <tr><td><b>Engineering</b></td><td>CI runs lint, typecheck, unit tests, a production build, a smoke test on the Workers runtime and Playwright on Chromium and Firefox, then deploys from <code>main</code>. Sign-in supports Google, GitHub, Azure and email OTP, with a 12-character minimum password.</td></tr>
 <tr><td><b>Stack</b></td><td>Next.js · Supabase (Postgres, RLS) · Cloudflare Workers via OpenNext · Playwright · GitHub Actions · Model Context Protocol</td></tr>
 </table>
+
+</details>
 
 ---
 
